@@ -1,0 +1,8 @@
+{
+  "name": "PetPulse AI - Professional Pet Care SaaS",
+  "description": "A comprehensive SaaS platform for pet owners, veterinarians, and administrators featuring AI-powered symptom checking, real-time video consultations, and practice management.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
