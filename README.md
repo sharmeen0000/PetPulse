@@ -1,20 +1,34 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
 
-# Run and deploy your AI Studio app
+PetPulse – Pet Care Web App
 
-This contains everything you need to run your app locally.
+PetPulse is a React + TypeScript web application for pet owners, doctors, and admins to manage pet care seamlessly. It allows users to book appointments, conduct virtual consultations, and manage pets efficiently—all through a clean, responsive interface.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1nMBMs9apsWnKI1Tdsrjb4O8yz8dUFGrB
+Key Features:
 
-## Run Locally
+Pet Owner Panel: Add/manage pets, book appointments, join virtual consultations, and track pet health history.
 
-**Prerequisites:**  Node.js
+Doctor Panel: Manage schedules, handle appointments, conduct virtual meetings, and access pet records.
 
+Admin Panel: Monitor users, doctors, and appointments, with system management and analytics.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Multi-role authentication for smooth access control.
+
+Responsive design for desktop and mobile.
+
+Tech Stack:
+
+Frontend: React + TypeScript
+
+State Management: React Context / Hooks
+
+Styling: CSS / Tailwind / Styled Components
+
+Highlights:
+
+Type-safe code with TypeScript
+
+Role-based navigation across multiple panels
+
+Virtual meeting integration for real-time consultations
+
+Fully client-side implementation (no backend/API required)
